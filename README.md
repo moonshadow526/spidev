@@ -1,5 +1,5 @@
 # spidev
-rk平台上使用spi和mcu通信传输文件
+rk平台上使用spi和mcu通信传输文件，每包数据2048个字节
 ## rk平台上配置spi设备树,例如：
 &spi1 {
         status = "okay";
