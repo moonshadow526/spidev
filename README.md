@@ -14,5 +14,6 @@ rk平台上使用spi和mcu通信传输文件，每包数据2048个字节
 直接使用export模式导出gpio
 echo 59 > /sys/class/gpio/export
 echo out > /sys/class/gpio/gpio59/direction 
+然后再代码中使用set_gpio函数控制gpio状态
 ## 主机发送数据代码见spidev_opt.c
 
