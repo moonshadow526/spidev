@@ -1,10 +1,5 @@
-// SPDX-License-Identifier: GPL-2.0-only
+// spidev_opt
 /*
- * SPI testing utility (using spidev driver)
- *
- * Copyright (c) 2007  MontaVista Software, Inc.
- * Copyright (c) 2007  Anton Vorontsov <avorontsov@ru.mvista.com>
- *
  * Cross-compile with cross-gcc -I/path/to/cross-kernel/include
  */
 
